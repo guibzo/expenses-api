@@ -1,0 +1,11 @@
+C:\dev\ignite\c#\ddd-csharp\src\domain\bin\Debug\net9.0\domain.deps.json
+C:\dev\ignite\c#\ddd-csharp\src\domain\bin\Debug\net9.0\domain.dll
+C:\dev\ignite\c#\ddd-csharp\src\domain\bin\Debug\net9.0\domain.pdb
+C:\dev\ignite\c#\ddd-csharp\src\domain\obj\Debug\net9.0\domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\ignite\c#\ddd-csharp\src\domain\obj\Debug\net9.0\domain.AssemblyInfoInputs.cache
+C:\dev\ignite\c#\ddd-csharp\src\domain\obj\Debug\net9.0\domain.AssemblyInfo.cs
+C:\dev\ignite\c#\ddd-csharp\src\domain\obj\Debug\net9.0\domain.csproj.CoreCompileInputs.cache
+C:\dev\ignite\c#\ddd-csharp\src\domain\obj\Debug\net9.0\domain.dll
+C:\dev\ignite\c#\ddd-csharp\src\domain\obj\Debug\net9.0\refint\domain.dll
+C:\dev\ignite\c#\ddd-csharp\src\domain\obj\Debug\net9.0\domain.pdb
+C:\dev\ignite\c#\ddd-csharp\src\domain\obj\Debug\net9.0\ref\domain.dll

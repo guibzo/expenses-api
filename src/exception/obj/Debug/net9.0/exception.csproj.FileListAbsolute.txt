@@ -1,0 +1,11 @@
+C:\dev\ignite\c#\ddd-csharp\src\exception\bin\Debug\net9.0\exception.deps.json
+C:\dev\ignite\c#\ddd-csharp\src\exception\bin\Debug\net9.0\exception.dll
+C:\dev\ignite\c#\ddd-csharp\src\exception\bin\Debug\net9.0\exception.pdb
+C:\dev\ignite\c#\ddd-csharp\src\exception\obj\Debug\net9.0\exception.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\ignite\c#\ddd-csharp\src\exception\obj\Debug\net9.0\exception.AssemblyInfoInputs.cache
+C:\dev\ignite\c#\ddd-csharp\src\exception\obj\Debug\net9.0\exception.AssemblyInfo.cs
+C:\dev\ignite\c#\ddd-csharp\src\exception\obj\Debug\net9.0\exception.csproj.CoreCompileInputs.cache
+C:\dev\ignite\c#\ddd-csharp\src\exception\obj\Debug\net9.0\exception.dll
+C:\dev\ignite\c#\ddd-csharp\src\exception\obj\Debug\net9.0\refint\exception.dll
+C:\dev\ignite\c#\ddd-csharp\src\exception\obj\Debug\net9.0\exception.pdb
+C:\dev\ignite\c#\ddd-csharp\src\exception\obj\Debug\net9.0\ref\exception.dll

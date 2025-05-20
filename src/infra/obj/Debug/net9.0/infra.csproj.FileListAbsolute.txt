@@ -1,0 +1,15 @@
+C:\dev\ignite\c#\ddd-csharp\src\infra\bin\Debug\net9.0\infra.deps.json
+C:\dev\ignite\c#\ddd-csharp\src\infra\bin\Debug\net9.0\infra.dll
+C:\dev\ignite\c#\ddd-csharp\src\infra\bin\Debug\net9.0\infra.pdb
+C:\dev\ignite\c#\ddd-csharp\src\infra\bin\Debug\net9.0\domain.dll
+C:\dev\ignite\c#\ddd-csharp\src\infra\bin\Debug\net9.0\domain.pdb
+C:\dev\ignite\c#\ddd-csharp\src\infra\obj\Debug\net9.0\infra.csproj.AssemblyReference.cache
+C:\dev\ignite\c#\ddd-csharp\src\infra\obj\Debug\net9.0\infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\ignite\c#\ddd-csharp\src\infra\obj\Debug\net9.0\infra.AssemblyInfoInputs.cache
+C:\dev\ignite\c#\ddd-csharp\src\infra\obj\Debug\net9.0\infra.AssemblyInfo.cs
+C:\dev\ignite\c#\ddd-csharp\src\infra\obj\Debug\net9.0\infra.csproj.CoreCompileInputs.cache
+C:\dev\ignite\c#\ddd-csharp\src\infra\obj\Debug\net9.0\infra.csproj.Up2Date
+C:\dev\ignite\c#\ddd-csharp\src\infra\obj\Debug\net9.0\infra.dll
+C:\dev\ignite\c#\ddd-csharp\src\infra\obj\Debug\net9.0\refint\infra.dll
+C:\dev\ignite\c#\ddd-csharp\src\infra\obj\Debug\net9.0\infra.pdb
+C:\dev\ignite\c#\ddd-csharp\src\infra\obj\Debug\net9.0\ref\infra.dll

@@ -1,0 +1,140 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "communication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/communication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/communication.dll": {}
+        }
+      },
+      "domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/domain.dll": {}
+        }
+      },
+      "exception/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/exception.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/exception.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "communication/1.0.0": {
+      "type": "project",
+      "path": "../communication/communication.csproj",
+      "msbuildProject": "../communication/communication.csproj"
+    },
+    "domain/1.0.0": {
+      "type": "project",
+      "path": "../domain/domain.csproj",
+      "msbuildProject": "../domain/domain.csproj"
+    },
+    "exception/1.0.0": {
+      "type": "project",
+      "path": "../exception/exception.csproj",
+      "msbuildProject": "../exception/exception.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "communication >= 1.0.0",
+      "domain >= 1.0.0",
+      "exception >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\imlui\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\dev\\ignite\\c#\\ddd-csharp\\src\\application\\application.csproj",
+      "projectName": "application",
+      "projectPath": "C:\\dev\\ignite\\c#\\ddd-csharp\\src\\application\\application.csproj",
+      "packagesPath": "C:\\Users\\imlui\\.nuget\\packages\\",
+      "outputPath": "C:\\dev\\ignite\\c#\\ddd-csharp\\src\\application\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\imlui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\dev\\ignite\\c#\\ddd-csharp\\src\\communication\\communication.csproj": {
+              "projectPath": "C:\\dev\\ignite\\c#\\ddd-csharp\\src\\communication\\communication.csproj"
+            },
+            "C:\\dev\\ignite\\c#\\ddd-csharp\\src\\domain\\domain.csproj": {
+              "projectPath": "C:\\dev\\ignite\\c#\\ddd-csharp\\src\\domain\\domain.csproj"
+            },
+            "C:\\dev\\ignite\\c#\\ddd-csharp\\src\\exception\\exception.csproj": {
+              "projectPath": "C:\\dev\\ignite\\c#\\ddd-csharp\\src\\exception\\exception.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
