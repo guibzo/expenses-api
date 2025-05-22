@@ -9,3 +9,4 @@ C:\dev\ignite\c#\ddd-csharp\src\communication\obj\Debug\net9.0\communication.dll
 C:\dev\ignite\c#\ddd-csharp\src\communication\obj\Debug\net9.0\refint\communication.dll
 C:\dev\ignite\c#\ddd-csharp\src\communication\obj\Debug\net9.0\communication.pdb
 C:\dev\ignite\c#\ddd-csharp\src\communication\obj\Debug\net9.0\ref\communication.dll
+C:\dev\ignite\c#\ddd-csharp\src\communication\obj\Debug\net9.0\communication.sourcelink.json

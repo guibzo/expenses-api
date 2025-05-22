@@ -39,3 +39,5 @@ C:\dev\ignite\c#\ddd-csharp\src\api\obj\Debug\net9.0\ref\api.dll
 C:\dev\ignite\c#\ddd-csharp\src\api\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\dev\ignite\c#\ddd-csharp\src\api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\dev\ignite\c#\ddd-csharp\src\api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\dev\ignite\c#\ddd-csharp\src\api\obj\Debug\net9.0\api.sourcelink.json
+C:\dev\ignite\c#\ddd-csharp\src\api\bin\Debug\net9.0\FluentValidation.dll

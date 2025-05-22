@@ -16,4 +16,8 @@
     <Folder Include="UseCases\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.0.0" />
+  </ItemGroup>
+
 </Project>

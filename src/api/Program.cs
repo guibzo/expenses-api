@@ -10,18 +10,21 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.Configure<JsonOptions>(options => {
     options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+    options.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
+    options.JsonSerializerOptions.AllowTrailingCommas = true;
 });
 
 builder.Services.ConfigureHttpJsonOptions(options => {
     options.SerializerOptions.Converters.Add(new JsonStringEnumConverter());
-}); 
+    options.SerializerOptions.PropertyNameCaseInsensitive = true;
+    options.SerializerOptions.NumberHandling = JsonNumberHandling.AllowReadingFromString;
+});
 
 builder.Services.AddRouting(options => options.LowercaseUrls = true);
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
+if (app.Environment.IsDevelopment()) {
     app.UseSwagger();
     app.UseSwaggerUI();
 }

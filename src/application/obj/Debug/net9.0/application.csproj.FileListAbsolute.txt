@@ -17,3 +17,4 @@ C:\dev\ignite\c#\ddd-csharp\src\application\obj\Debug\net9.0\application.dll
 C:\dev\ignite\c#\ddd-csharp\src\application\obj\Debug\net9.0\refint\application.dll
 C:\dev\ignite\c#\ddd-csharp\src\application\obj\Debug\net9.0\application.pdb
 C:\dev\ignite\c#\ddd-csharp\src\application\obj\Debug\net9.0\ref\application.dll
+C:\dev\ignite\c#\ddd-csharp\src\application\obj\Debug\net9.0\application.sourcelink.json

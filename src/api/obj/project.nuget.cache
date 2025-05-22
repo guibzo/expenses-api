@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Xi1eAeZ4jtI=",
+  "dgSpecHash": "hO8Gs926EXc=",
   "success": true,
   "projectFilePath": "C:\\dev\\ignite\\c#\\ddd-csharp\\src\\api\\api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\imlui\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
     "C:\\Users\\imlui\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.5\\microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
     "C:\\Users\\imlui\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\imlui\\.nuget\\packages\\microsoft.openapi\\1.6.23\\microsoft.openapi.1.6.23.nupkg.sha512",
