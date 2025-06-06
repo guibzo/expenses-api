@@ -1,6 +1,7 @@
 ﻿using application.UseCases.Expenses.Create;
 using communication.Requests.Expenses;
 using communication.Responses;
+using exception.Exceptions;
 using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,24 +16,22 @@ public static class CreateExpenseEndpoint {
                     useCase.Execute(request);
                     return Results.Created();
                 }
-                catch (Exception exc) {
-                    var errorResponse = exc switch {
-                        ValidationException validation => new ErrorMessage(
-                            validation.Errors.Select(e => e.ErrorMessage).ToList()
+                catch (Exception exception) {
+                    var errorMessages = exception switch {
+                        CustomValidationException validation => new ErrorMessages(validation.ErrorMessages),
+                        ArgumentException argException => new ErrorMessages(
+                            [argException.Message]
                         ),
-                        ArgumentException exception => new ErrorMessage(
-                            [exception.Message]
-                        ),
-                        _ => new ErrorMessage(
+                        _ => new ErrorMessages(
                              ["Unknown error (500) at CreateExpense." ]
                         )
                     };
 
-                    return exc switch {
-                        ValidationException => Results.BadRequest(errorResponse),
-                        ArgumentException => Results.BadRequest(errorResponse),
+                    return exception switch {
+                        CustomValidationException => Results.BadRequest(errorMessages),
+                        ArgumentException => Results.BadRequest(errorMessages),
                         _ => Results.Problem(
-                            detail: string.Join("; ", errorResponse.Errors),
+                            detail: string.Join("; ", errorMessages.Errors),
                             statusCode: StatusCodes.Status500InternalServerError
                         )
                     };
@@ -41,7 +40,7 @@ public static class CreateExpenseEndpoint {
             .WithName("CreateExpense")
             .WithTags("Expenses")
             .Produces(StatusCodes.Status201Created)
-            .Produces<ErrorMessage>(StatusCodes.Status400BadRequest)
+            .Produces<ErrorMessages>(StatusCodes.Status400BadRequest)
             .Produces(StatusCodes.Status500InternalServerError);
     }
 }

@@ -1,4 +1,4 @@
 ﻿using communication.Enums;
 
 namespace communication.Requests.Expenses;
-public record CreateExpenseRequest (string Title, string? Description, DateTime Date, decimal Amount, PaymentType PaymentType);
+public record CreateExpenseRequest (string Title, string? Description, DateTime Date, decimal Amount, string PaymentType);

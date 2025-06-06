@@ -1,3 +1,5 @@
 ﻿namespace communication.Responses;
 
-public record ErrorMessage (List<string> Errors);
+public record ErrorMessages(List<string> Errors) {
+    public ErrorMessages(string error) : this([error]) {} 
+}

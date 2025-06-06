@@ -1,4 +1,5 @@
-﻿using communication.Requests.Expenses;
+﻿using communication.Enums;
+using communication.Requests.Expenses;
 using FluentValidation;
 
 namespace application.UseCases.Expenses.Create;
@@ -15,7 +16,7 @@ public class CreateExpenseParamsValidator : AbstractValidator<CreateExpenseReque
             .LessThanOrEqualTo(DateTime.UtcNow)
             .WithMessage("A future date is invalid");
         RuleFor(expense => expense.PaymentType)
-            .IsInEnum()
+            .Must(value => Enum.TryParse<PaymentType>(value, true, out _))
             .WithMessage("Payment type invalid");
     }
 }

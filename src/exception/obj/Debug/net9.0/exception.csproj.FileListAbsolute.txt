@@ -9,3 +9,4 @@ C:\dev\ignite\c#\ddd-csharp\src\exception\obj\Debug\net9.0\exception.dll
 C:\dev\ignite\c#\ddd-csharp\src\exception\obj\Debug\net9.0\refint\exception.dll
 C:\dev\ignite\c#\ddd-csharp\src\exception\obj\Debug\net9.0\exception.pdb
 C:\dev\ignite\c#\ddd-csharp\src\exception\obj\Debug\net9.0\ref\exception.dll
+C:\dev\ignite\c#\ddd-csharp\src\exception\obj\Debug\net9.0\exception.sourcelink.json
