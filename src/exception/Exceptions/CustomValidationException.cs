@@ -1,11 +1,11 @@
-﻿namespace exception.Exceptions;
+﻿using System.Net;
 
-public class CustomValidationException : AppException {
-    public List<string> ErrorMessages { get; }
+namespace exception.Exceptions;
 
-    public CustomValidationException(List<string> errorMessages) {
-        ErrorMessages = errorMessages;
-    } 
+public class CustomValidationException(List<string> errorMessages) : AppException { 
+    public override int StatusCode => (int)HttpStatusCode.BadRequest;
     
-    public CustomValidationException(string errorMessage) : this([errorMessage]) {}
+    public override List<string> GetErrors() {
+        return errorMessages;
+    }
 }
